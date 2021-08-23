@@ -61,12 +61,13 @@ _For Low Resource Models :_
 
 _For agr\_en\_train model:_
 
-| **Model Name** | **Precision** | **Recall** | **Support** | **F1-Score** | **Accuracy** |
-| --- | --- | --- | --- | --- | --- |
-| _Random Forests_ | _0.51_ | _0.52_ | _3000_ | _0.51_ | _0.52_ |
-| _KNN_ | _0.49_ | _0.48_ | _3000_ | _0.46_ | _0.48_ |
-| _ **SVM** _ | _ **0.54** _ | _ **0.53** _ | _ **3000** _ | _ **0.50** _ | _ **0.53** _ |
-| _ **Multinomial Naive Bayes** _ | _ **0.54** _ | _ **0.53** _ | _ **3000** _ | _ **0.50** _ | _ **0.53** _ |
+| **Technique type** | **Model Name** | **Precision** | **Recall** | **Support** | **F1-Score** | **Accuracy** |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | _Random Forests_ | _0.51_ | _0.52_ | _3000_ | _0.51_ | _0.52_ |
+| Low Resource | _KNN_ | _0.49_ | _0.48_ | _3000_ | _0.46_ | _0.48_ |
+| Models | _ **SVM** _ | _ **0.54** _ | _ **0.53** _ | _ **3000** _ | _ **0.50** _ | _ **0.53** _ |
+| --- | _ **Multinomial Naive Bayes** _ | _ **0.54** _ | _ **0.53** _ | _ **3000** _ | _ **0.50** _ | _ **0.53** _ |
+| Transfer Learning | _Machine Translation - Seq2Seq_ | _0.41_ | _0.41_ | _2400_ | _0.40_ | _---_ |
 
 ![](RackMultipart20210817-4-c1mmhw_html_cc5587ac2b36ca7d.png)
 
